@@ -11,7 +11,8 @@
 #include <boost/version.hpp>
 
 /**
- * Workaround for problems with whitespaces in paths in older versions of Boost library
+ * Workaround for problems with whitespaces in paths in older versions of
+ * Boost library
  */
 #if (BOOST_VERSION <= 104600)
 namespace boost
